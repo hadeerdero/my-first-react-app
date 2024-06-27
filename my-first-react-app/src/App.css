@@ -8,9 +8,11 @@
 }
 .row{
   display: flex;
+  justify-content: center;
 }
 .post-section{
   margin: 10px;
+  max-height: 500px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

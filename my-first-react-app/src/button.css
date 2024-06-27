@@ -1,0 +1,8 @@
+.button .btnClass{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    margin: 5px;
+}

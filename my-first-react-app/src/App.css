@@ -11,8 +11,9 @@
   justify-content: center;
 }
 .post-section{
+  width: 70%;
   margin: 10px;
-  max-height: 500px;
+  max-height: 500px;  
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,12 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Header";
-import Post from "./Post";
-import SideBar from "./sideBar";
+import Article from "./Article";
+// import Header from "./Header";
+// import Post from "./Post";
+// import SideBar from "./sideBar";
 function App() {
+  const firstArticle =` my name is ahmed awadallah ,
+  i'm is a good boy `
   return (
     <div className="App">
-      <Header></Header>
+      
+      {/* First Challenge */}
+      {/* <Header></Header>
       <div className="row">
         <div className="post-section">
           <Post></Post>
@@ -27,8 +32,12 @@ function App() {
         <div className="sidebar-section">
           <SideBar></SideBar>
         </div>
-      </div>
-      {/* <header className="App-header">
+      </div> */}
+
+
+      {/* React Introduction */}
+
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -41,7 +50,9 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+        <Article name="Hadeer" email="hadeer@gmail.com"></Article>
+        <Article name="Ahmed" email="ahmed@gmail.com" content={firstArticle}></Article>
+      </header>
     </div>
   );
 }

@@ -50,7 +50,9 @@ function App() {
         >
           Learn React
         </a>
-        <Article name="Hadeer" email="hadeer@gmail.com"></Article>
+        <Article name="Hadeer" email="hadeer@gmail.com">
+          <h1>Hello World</h1>
+        </Article>
         <Article name="Ahmed" email="ahmed@gmail.com" content={firstArticle}></Article>
       </header>
     </div>

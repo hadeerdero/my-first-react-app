@@ -1,4 +1,4 @@
-export default function Article({name,email,content = "No content"}){
+export default function Article({name,email,content = "No content",children}){
     return(
         <div style={{background:"white",
             boxShadow:"0px 10px 10px gray",
@@ -14,6 +14,7 @@ export default function Article({name,email,content = "No content"}){
             <h3>1996</h3>
             <hr></hr>
             <p>{content}</p>
+            {children}
         </div>
     )
 }

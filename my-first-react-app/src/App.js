@@ -1,43 +1,35 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Article from "./Article";
-// import Header from "./Header";
-// import Post from "./Post";
-// import SideBar from "./sideBar";
+// import Article from "./Article";
+import Header from "./Header";
+import Post from "./Post";
+import SideBar from "./sideBar";
 function App() {
-  const firstArticle =` my name is ahmed awadallah ,
-  i'm is a good boy `
+  
   return (
     <div className="App">
       
+
+      
       {/* First Challenge */}
-      {/* <Header></Header>
+      <Header></Header>
       <div className="row">
         <div className="post-section">
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
-          <Post></Post>
+          <Post title="اكاديمية ترميز" paragraph="أكاديمية متخصصه لتعليم البرمجة بمختلف لغتها او تقنيتها" ></Post>
+          <Post title="Hello World" paragraph="this is the hello world article"></Post>
+          <Post title="Post 3" paragraph="this is body of post 3"></Post>
+          
           
         </div>
         <div className="sidebar-section">
           <SideBar></SideBar>
         </div>
-      </div> */}
+      </div>
 
 
       {/* React Introduction */}
 
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -50,11 +42,12 @@ function App() {
         >
           Learn React
         </a>
-        <Article name="Hadeer" email="hadeer@gmail.com">
+         Props lesson  
+         <Article name="Hadeer" email="hadeer@gmail.com">
           <h1>Hello World</h1>
         </Article>
-        <Article name="Ahmed" email="ahmed@gmail.com" content={firstArticle}></Article>
-      </header>
+        <Article name="Ahmed" email="ahmed@gmail.com" content={firstArticle}></Article> 
+      </header> */}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import './Post.css';
-export default function Post({title, paragraph}){
+export default function Post({title="No Title", paragraph="No Post Body"}){
     return(
         <div className="post">
             <h1>
